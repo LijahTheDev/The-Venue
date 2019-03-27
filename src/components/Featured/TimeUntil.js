@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Zoom from 'react-reveal/Zoom';
+import countdown from './countdown.module.css';
 
 class TimeUntil extends Component {
 	state = {
@@ -37,32 +38,32 @@ class TimeUntil extends Component {
 	render() {
 		return (
 			<Zoom left delay={1000}>
-				<div className='countdown_wrapper'>
-					<div className='countdown_top'>{this.state.title}</div>
-					<div className='countdown_bottom'>
-						<div className='countdown_item'>
-							<div className='countdown_time'>
+				<div className={countdown.wrapper}>
+					<div className={countdown.top}>{this.state.title}</div>
+					<div className={countdown.bottom}>
+						<div className={countdown.item}>
+							<div className={countdown.time}>
 								{this.state.days}
 							</div>
-							<div className='countdown_tag'>Day</div>
+							<div className={countdown.tag}>Day</div>
 						</div>
-						<div className='countdown_item'>
-							<div className='countdown_time'>
+						<div className={countdown.item}>
+							<div className={countdown.time}>
 								{this.state.hours}
 							</div>
-							<div className='countdown_tag'>Hr</div>
+							<div className={countdown.tag}>Hr</div>
 						</div>
-						<div className='countdown_item'>
-							<div className='countdown_time'>
+						<div className={countdown.item}>
+							<div className={countdown.time}>
 								{this.state.minutes}
 							</div>
-							<div className='countdown_tag'>Min</div>
+							<div className={countdown.tag}>Min</div>
 						</div>
-						<div className='countdown_item'>
-							<div className='countdown_time'>
+						<div className={countdown.item}>
+							<div className={countdown.time}>
 								{this.state.seconds}
 							</div>
-							<div className='countdown_tag'>Sec</div>
+							<div className={countdown.tag}>Sec</div>
 						</div>
 					</div>
 				</div>

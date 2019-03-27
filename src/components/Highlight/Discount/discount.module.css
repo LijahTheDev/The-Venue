@@ -1,0 +1,43 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 70px 20px;
+}
+
+.percentage {
+	padding-right: 100px;
+}
+
+.percentage span:nth-child(1) {
+	color: #ff4800;
+	font-size: 125px;
+	font-weight: 400;
+	display: block;
+	line-height: 120px;
+}
+
+.percentage span:nth-child(2) {
+	color: #2c2c2c;
+	font-size: 50px;
+	font-weight: 400;
+	display: block;
+}
+
+.description h3 {
+	font-size: 34px;
+	font-weight: 100;
+	margin: 0px;
+	color: #2c2c2c;
+}
+
+.description p {
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+@media (min-width: 800px) {
+	.wrapper {
+		flex-direction: row;
+	}
+}

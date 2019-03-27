@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Flip from 'react-reveal/Flip';
 import Slide from 'react-reveal/Slide';
-import TicketButton from '../utils/TicketButton';
+import TicketButton from '../../utils/TicketButton';
+import { center_wrapper } from '../../../resources/styles.module.css';
+import discount from './discount.module.css';
 
 class Discount extends Component {
 	state = {
@@ -27,16 +29,16 @@ class Discount extends Component {
 
 	render() {
 		return (
-			<div className='center_wrapper'>
-				<div className='discount_wrapper'>
+			<div className={center_wrapper}>
+				<div className={discount.wrapper}>
 					<Flip top delay={1000} onReveal={() => this.percentage()}>
-						<div className='discount_percentage'>
+						<div className={discount.percentage}>
 							<span>{this.state.discountStart}%</span>
 							<span>OFF</span>
 						</div>
 					</Flip>
 					<Slide right>
-						<div className='discount_description'>
+						<div className={discount.description}>
 							<h3>Purchase Tickets before 31st JULY</h3>
 							<p>
 								Lorem, ipsum dolor sit amet consectetur

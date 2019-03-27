@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { font_righteous } from '../../resources/styles.module.css';
+import navbar from './navbar.module.css';
 
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -37,15 +39,17 @@ class Header extends Component {
 					backgroundColor: this.state.headerShow
 						? '#2f2f2f'
 						: 'transparent',
-					boxShadow: 'none',
-					padding: '10px 0'
-				}}>
+					boxShadow: 'none'
+				}}
+				className={navbar.bar}>
 				<Toolbar>
-					<div className='header_logo'>
-						<div className='font_righteous header_logo_venue'>
+					<div className={navbar.logo}>
+						<div
+							className={`${navbar.logo_venue} 
+							${font_righteous}`}>
 							The Venue
 						</div>
-						<div className='header_logo_title'>Car Events</div>
+						<div className={navbar.logo_title}>Car Events</div>
 					</div>
 
 					<IconButton

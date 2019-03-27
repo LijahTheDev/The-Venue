@@ -5,10 +5,6 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
 const SideDrawer = props => {
-	const styles = {
-		backgroundColor: '#2f2f2f !important'
-	};
-
 	const scrollToElement = element => {
 		scroller.scrollTo(element, {
 			duration: 1500,
@@ -22,7 +18,6 @@ const SideDrawer = props => {
 	return (
 		<Drawer
 			anchor='right'
-			classes={{ root: styles.root }}
 			open={props.open}
 			onClose={() => props.onClose(false)}>
 			<List component='nav'>

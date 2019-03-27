@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import { Element } from 'react-scroll';
-import './resources/styles.css';
-import Header from './components/header_footer/Header';
+import NavBar from './components/NavBar';
 import Featured from './components/Featured';
 import VenueInfo from './components/VenueInfo';
 import Highlight from './components/Highlight';
 import Pricing from './components/Pricing';
 import Location from './components/Location';
-import Footer from './components/header_footer/Footer';
+import Footer from './components/Footer';
 
 class App extends Component {
 	render() {
 		return (
-			<div className='App' style={{ height: '1500px' }}>
-				<Header />
+			<React.Fragment>
+				<NavBar />
 
 				<Element name='featured'>
 					<Featured />
@@ -32,7 +31,7 @@ class App extends Component {
 				</Element>
 
 				<Footer />
-			</div>
+			</React.Fragment>
 		);
 	}
 }
