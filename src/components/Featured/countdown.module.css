@@ -10,7 +10,7 @@
 }
 
 .top {
-	background: #ff4800;
+	background: linear-gradient(#535353, #3c3c3c);
 	font-size: 1.9em;
 	padding: 0.6em;
 	display: inline-block;
@@ -19,13 +19,13 @@
 
 .bottom {
 	display: flex;
-	background: #d93d00;
+	background: #3c3c3c;
 	padding: 0.6em 1.2em;
 }
 
 .time {
 	font-size: 7em;
-	border-right: 1px solid #f44336;
+	border-right: 1px solid #535353;
 	margin-right: 14px;
 	padding-right: 49px;
 }
