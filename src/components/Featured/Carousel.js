@@ -5,7 +5,6 @@ import slide_one from '../../resources/images/slide-one.jpg';
 import slide_two from '../../resources/images/slide-two.jpg';
 import slide_three from '../../resources/images/slide-three.jpg';
 import slide_four from '../../resources/images/slide-four.jpg';
-import mobile_four from '../../resources/images/slide-four-mobile.jpg';
 
 const Carousel = () => {
 	const settings = {
@@ -43,11 +42,7 @@ const Carousel = () => {
 					style={{
 						height: `${window.innerHeight}px`
 					}}>
-					{window.innerWidth > 500 ? (
-						<img src={slide_four} alt='Audi Dealership' />
-					) : (
-						<img src={mobile_four} alt='Audi Dealership' />
-					)}
+					<img src={slide_four} alt='Audi Dealership' />
 				</div>
 			</Slider>
 		</div>
