@@ -1,6 +1,6 @@
 # The Venue - Car Events
 
-### The Venue is a modern event landing page for future events.** <br>
+### The Venue is a modern event landing page for future events. <br>
 
 **It features:**
 * Animated ticket subscription prices with a discount!
