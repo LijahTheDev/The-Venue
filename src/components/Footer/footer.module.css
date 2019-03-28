@@ -2,12 +2,17 @@
         FOOTER
 ======================*/
 
+.bck {
+	background: url('../../resources/images/brick.png'),
+		linear-gradient(#ff4e08, #ff6c6c);
+}
+
 .main {
 	padding: 50px 0px;
 	text-align: center;
 	font-size: 60px;
 	color: #ffffff;
-	background: red;
+	text-shadow: 2px 2px 10px #2e2e2e;
 }
 
 .copyright {

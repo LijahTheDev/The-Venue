@@ -3,12 +3,13 @@
 ======================*/
 .featured_wrapper {
 	position: relative;
+	overflow: hidden;
 }
 .event_name_box {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 350px;
+	min-width: 350px;
 	height: 160px;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
@@ -17,17 +18,23 @@
 
 .event_name {
 	border: 2px solid white;
+	text-shadow: 2px 2px 5px #000;
 	height: 121px;
 	margin: 6px;
 	text-align: center;
 	color: #fff;
-	font-size: 40px;
-	padding: 21px 70px 0px 70px;
+	font-size: 36px;
+	padding: 0.6em 0.2em 0 0.2em;
 	text-transform: uppercase;
+	background: rgba(0, 0, 0, 0.6);
 }
 
 @media (min-width: 800px) {
 	.event_name_box {
 		width: 400px;
+	}
+
+	.event_name {
+		font-size: 40px;
 	}
 }

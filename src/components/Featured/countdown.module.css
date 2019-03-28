@@ -4,9 +4,10 @@
 
 .wrapper {
 	position: absolute;
-	font-size: 4px;
+	font-size: 5px;
 	bottom: 0px;
 	color: #ffffff;
+	text-shadow: 3px 3px 5px #000;
 }
 
 .top {
@@ -27,7 +28,7 @@
 	font-size: 7em;
 	border-right: 1px solid #535353;
 	margin-right: 14px;
-	padding-right: 49px;
+	padding-right: 25px;
 }
 .item:last-child .time {
 	border: none;
@@ -42,5 +43,8 @@
 @media (min-width: 800px) {
 	.wrapper {
 		font-size: 10px;
+	}
+	.time {
+		padding-right: 49px;
 	}
 }

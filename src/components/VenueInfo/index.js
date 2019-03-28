@@ -7,14 +7,15 @@ import {
 	bck_black,
 	bck_red,
 	bck_yellow,
-	center_wrapper
+	center_wrapper,
+	overflow_hid
 } from '../../resources/styles.module.css';
 
 const VenueInfo = () => {
 	return (
 		<div className={bck_black}>
 			<div className={center_wrapper}>
-				<div className={vi.wrapper}>
+				<div className={`${vi.wrapper} ${overflow_hid}`}>
 					<Zoom>
 						<div className={vi.item}>
 							<div className={vi.outer}>
@@ -32,7 +33,7 @@ const VenueInfo = () => {
 										Event Date & Time
 									</div>
 									<div className={vi.desc}>
-										7 October 2019 @10:30PM
+										31 July 2019 @10:30PM
 									</div>
 								</div>
 							</div>

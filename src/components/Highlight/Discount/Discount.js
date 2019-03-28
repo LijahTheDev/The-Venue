@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import Flip from 'react-reveal/Flip';
 import Slide from 'react-reveal/Slide';
 import TicketButton from '../../utils/TicketButton';
-import { center_wrapper } from '../../../resources/styles.module.css';
+import {
+	center_wrapper,
+	overflow_hid
+} from '../../../resources/styles.module.css';
 import discount from './discount.module.css';
 
 class Discount extends Component {
@@ -30,7 +33,7 @@ class Discount extends Component {
 	render() {
 		return (
 			<div className={center_wrapper}>
-				<div className={discount.wrapper}>
+				<div className={`${discount.wrapper} ${overflow_hid}`}>
 					<Flip top delay={1000} onReveal={() => this.percentage()}>
 						<div className={discount.percentage}>
 							<span>{this.state.discountStart}%</span>
