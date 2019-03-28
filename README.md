@@ -20,7 +20,7 @@ Make sure you have the following installed on your system before preceding.
 
 ## Installation 💿
 
-These are a series of step by step examples that will tell you how to get a development environment up & running.
+These are a series of step by step examples that will help you get a development environment up & running.
 
 ### Step 1. Download the zip or clone the repo 💾
 
@@ -73,7 +73,7 @@ I used **Netlify** for deployment. It was one of the easiest things I did on thi
 I linked this repo to Netlify so anytime I push my changes to this repo it will automatically update the live website!<br> 
 To view the live website on Netlify click here: https://the-venue-car-events.netlify.com/
 
-## Built With 🔨
+## This Project Is Built With: 🔨
 * [Create React App](https://github.com/facebook/create-react-app) - This project was bootstrapped with Create-React-App
 * [React](http://www.dropwizard.io/1.0.2/docs/) - Used the React JavaScript library for building UI Components
 * [React-Reveal](https://www.react-reveal.com/) - Used for component reveal animation
