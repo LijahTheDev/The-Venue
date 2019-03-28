@@ -2,9 +2,9 @@
 
 **The Venue is a modern event landing page for future events.** <br>
 **It features:**
-* Animated sections for ticket subscription prices with a discount!
-* Animated location & time sections for the event!
-* A map so you can see the even location!
+* Animated ticket subscription prices with a discount!
+* Animated location & time for the event!
+* A map so you can see the event location!
 * A countdown timer to keep track of how many days, hours, minutes, and seconds until the event! 
 
 ## Getting Started ⌨
@@ -21,7 +21,7 @@ Make sure you have the following installed on your system before preceding.
 
 These are a series of step by step examples that will tell you how to get a development environment up & running.
 
-### Step 1. Dowload the zip or clone the repo 💾
+### Step 1. Download the zip or clone the repo 💾
 
 ```
 git clone https://github.com/LijahTheDev/The-Venue.git
@@ -31,16 +31,16 @@ git clone https://github.com/LijahTheDev/The-Venue.git
 
 Once you have the project folder ready to go, open the folder in your favorite code editor.<br>
 Once you have opened the project folder in your code editor,<br> 
-open the project directory in a terminal and run the follow command in the project folder/directory.
+open the project directory in a terminal and run the following command in the project folder/directory.
 
 ```
 npm install
 ```
-This will install all the dependencies and get all the require packages for this project.
+This will install all the dependencies and get all the required packages for this project.
 
 ### Step 3. Run Project on Local Dev Server 💻
 
-Next you'll want to run a local devlopment server with live reloading.<br> 
+Next, you'll want to run a local development server with live reloading.<br> 
 When you make changes and save, the server running the project on localhost will automatically reload.<br>
 Create-React-App makes it easy to spin up a local server on localhost by typing an easy command in the terminal.
 
@@ -54,11 +54,11 @@ npm start
 
 ## Deployment 📢
 After following the previous installation steps up above,<br> 
-you can run the following command to have a optimized production version of the project where you can put the project on a host of your choice.
+you can run the following command to have an optimized production version of the project where you can put the project on a host of your choice.
 ```
 npm run build
 ```
-This commands builds the app for production to the `build` folder.<br>
+This command builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br>
@@ -79,11 +79,11 @@ To view the live website on Netlify click here: https://the-venue-car-events.net
 * [React-Scroll](https://github.com/fisshy/react-scroll) - Used for scroll animation
 * [React-Slick](https://react-slick.neostack.com/) - Used for the carousel
 * [Material-Ui](https://material-ui.com/) - Used for the navigation & Buttons
-* [Google's Map Embed API](https://developers.google.com/maps/documentation/embed/start) - Used for an embed Google Map
+* [Google's Map Embed API](https://developers.google.com/maps/documentation/embed/start) - Used for an embedded Google Map
 
 ## Acknowledgments 💡
 
 I built this project during taking ["The React practice course, learn by building projects."](https://www.udemy.com/the-react-practice-course-learn-by-building-projects/) course.<br> 
-This is where the project idea, structure, and knowlegde came from.<br> 
-I made some customizations and sweaks such as making it more mobile friendly.<br> 
-Big thanks goes out to this course, it taught me a lot and The Venue was my first react landing page!❤😎
+This is where the project idea, structure, and knowledge came from.<br> 
+I made some customizations and tweaks such as making it more mobile friendly.<br> 
+Big thanks go out to this course, it taught me a lot and The Venue was my first react landing page!❤😎
