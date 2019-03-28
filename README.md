@@ -1,68 +1,90 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Venue - Car Events
 
-## Available Scripts
+### The Venue is a modern event landing page for future events. <br>
 
-In the project directory, you can run:
+**It features:**
+* Animated ticket subscription prices with a discount!
+* Animated location & time for the event!
+* A map so you can see the event location!
+* A countdown timer to keep track of how many days, hours, minutes, and seconds until the event! 
 
-### `npm start`
+## Getting Started ⌨
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.<br>
+See the **Deployment** section on how to deploy the project on a live system.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Prerequisites ✏
 
-### `npm test`
+Make sure you have the following installed on your system before preceding.
+* Node & NPM
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation 💿
 
-### `npm run build`
+These are a series of step by step examples that will help you get a development environment up & running.
 
-Builds the app for production to the `build` folder.<br>
+### Step 1. Download the zip or clone the repo 💾
+
+```
+git clone https://github.com/LijahTheDev/The-Venue.git
+```
+
+### Step 2. Install Dependencies 🗂
+
+Once you have the project folder ready to go, open the folder in your favorite code editor.<br>
+Once you have opened the project folder in your code editor,<br> 
+open the project directory in a terminal and run the following command in the project folder/directory.
+
+```
+npm install
+```
+This will install all the dependencies and get all the required packages for this project.
+
+### Step 3. Run Project on Local Dev Server 💻
+
+Next, you'll want to run a local development server with live reloading.<br> 
+When you make changes and save, the server running the project on localhost will automatically reload.<br>
+Create-React-App makes it easy to spin up a local server on localhost by typing an easy command in the terminal.
+
+```
+npm run start
+```
+or 
+```
+npm start
+````
+
+## Deployment 📢
+After following the previous installation steps up above,<br> 
+you can run the following command to have an optimized production version of the project where you can put the project on a host of your choice.
+```
+npm run build
+```
+This command builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+**The Venue is ready to be deployed!**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See React's section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### How I Handled Deployment 🔌
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+I used **Netlify** for deployment. It was one of the easiest things I did on this project.<br> 
+I linked this repo to Netlify so anytime I push my changes to this repo it will automatically update the live website!<br> 
+To view the live website on Netlify click here: https://the-venue-car-events.netlify.com/
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## This Project Is Built With: 🔨
+* [Create React App](https://github.com/facebook/create-react-app) - This project was bootstrapped with Create-React-App
+* [React](http://www.dropwizard.io/1.0.2/docs/) - Used the React JavaScript library for building UI Components
+* [React-Reveal](https://www.react-reveal.com/) - Used for component reveal animation
+* [React-Scroll](https://github.com/fisshy/react-scroll) - Used for scroll animation
+* [React-Slick](https://react-slick.neostack.com/) - Used for the carousel
+* [Material-Ui](https://material-ui.com/) - Used for the navigation & Buttons
+* [Google's Map Embed API](https://developers.google.com/maps/documentation/embed/start) - Used for an embedded Google Map
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Acknowledgments 💡
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+I built this project during taking ["The React practice course, learn by building projects."](https://www.udemy.com/the-react-practice-course-learn-by-building-projects/) course.<br> 
+This is where the project idea, structure, and knowledge came from.<br> 
+I made some customizations and tweaks such as making it more mobile friendly.<br> 
+Big thanks go out to this course, it taught me a lot and The Venue was my first react landing page!❤😎
