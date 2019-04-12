@@ -2,7 +2,7 @@
 
 ### The Venue is a modern event landing page for future events. <br>
 
-**It features:**
+**Features:**
 * Animated ticket subscription prices with a discount!
 * Animated location & time for the event!
 * A map so you can see the event location!
