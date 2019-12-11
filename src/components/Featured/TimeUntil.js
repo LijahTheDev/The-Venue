@@ -5,11 +5,11 @@ import countdown from './countdown.module.css';
 class TimeUntil extends Component {
 	state = {
 		title: 'Event Starts In',
-		deadline: 'July, 31, 2019',
+		deadline: 'July, 31, 2020',
 		days: '0',
 		hours: '0',
 		minutes: '0',
-		seconds: '0'
+		seconds: '0',
 	};
 
 	getTimeUntil(deadline) {
@@ -26,7 +26,7 @@ class TimeUntil extends Component {
 				days,
 				hours,
 				minutes,
-				seconds
+				seconds,
 			});
 		}
 	}
@@ -42,27 +42,19 @@ class TimeUntil extends Component {
 					<div className={countdown.top}>{this.state.title}</div>
 					<div className={countdown.bottom}>
 						<div className={countdown.item}>
-							<div className={countdown.time}>
-								{this.state.days}
-							</div>
+							<div className={countdown.time}>{this.state.days}</div>
 							<div className={countdown.tag}>Day</div>
 						</div>
 						<div className={countdown.item}>
-							<div className={countdown.time}>
-								{this.state.hours}
-							</div>
+							<div className={countdown.time}>{this.state.hours}</div>
 							<div className={countdown.tag}>Hr</div>
 						</div>
 						<div className={countdown.item}>
-							<div className={countdown.time}>
-								{this.state.minutes}
-							</div>
+							<div className={countdown.time}>{this.state.minutes}</div>
 							<div className={countdown.tag}>Min</div>
 						</div>
 						<div className={countdown.item}>
-							<div className={countdown.time}>
-								{this.state.seconds}
-							</div>
+							<div className={countdown.time}>{this.state.seconds}</div>
 							<div className={countdown.tag}>Sec</div>
 						</div>
 					</div>
