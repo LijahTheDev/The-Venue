@@ -15,7 +15,7 @@ See the **Deployment** section on how to deploy the project on a live system.
 
 ## Prerequisites ✏
 
-Make sure you have the following installed on your system before preceding.
+Make sure you have the following installed on your system before preceeding.
 * Node & NPM
 
 ## Installation 💿
@@ -84,7 +84,7 @@ To view the live website on Netlify click here: https://the-venue-car-events.net
 
 ## Acknowledgments 💡
 
-I built this project while taking ["The React practice course, learn by building projects."](https://www.udemy.com/the-react-practice-course-learn-by-building-projects/) course.<br> 
+I built this project while taking ["The React practice course, learn by building projects."](https://www.udemy.com/the-react-practice-course-learn-by-building-projects/).<br> 
 This is where the project idea, structure, and knowledge came from.<br> 
 I made some customizations and tweaks such as making it more mobile friendly.<br> 
 I'm thankful for this course, it taught me a lot and The Venue was my first react landing page!❤😎
